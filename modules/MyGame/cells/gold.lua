@@ -7,6 +7,7 @@ function Gold:initialize()
     prism.components.Drawable(string.byte("#") + 1, prism.Color4.fromHex(0xa67c00)),
     prism.components.Collider({ allowedMoveTypes = {"fly"}}),
     prism.components.Opaque(),
+    prism.components.Mineable({ hits = 2 }),
   }
 end
 

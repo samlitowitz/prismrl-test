@@ -6,7 +6,8 @@ function Rock:initialize()
   return {
     prism.components.Drawable(string.byte("#") + 1),
     prism.components.Collider({ allowedMoveTypes = {"fly"}}),
-    prism.components.Opaque()
+    prism.components.Opaque(),
+    prism.components.Mineable({ hits = 1}),
   }
 end
 
