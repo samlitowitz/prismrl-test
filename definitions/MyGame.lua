@@ -1,10 +1,14 @@
 ---@meta modules/mygame
 --- @module "modules.MyGame.cells.floor"
 prism.cells.Floor = nil
+--- @module "modules.MyGame.cells.gold"
+prism.cells.Gold = nil
+--- @module "modules.MyGame.cells.opaque_pit"
+prism.cells.OpaquePit = nil
 --- @module "modules.MyGame.cells.pit"
 prism.cells.Pit = nil
---- @module "modules.MyGame.cells.wall"
-prism.cells.Wall = nil
+--- @module "modules.MyGame.cells.rock"
+prism.cells.Rock = nil
 --- @module "modules.MyGame.actions.move"
 prism.actions.Move = nil
 --- @module "modules.MyGame.components.mover"
