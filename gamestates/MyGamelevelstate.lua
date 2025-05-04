@@ -61,6 +61,12 @@ function MyGameLevelState:keypressed(key, scancode)
          decision:setAction(move)
          return
       end
+      local cell = self.level:getCell(destination:decompose())
+      local mine = prism.actions.Mine(owner, { {cell = cell, destination = destination} })
+      if mine:canPerform(self.level) then
+         decision:setAction(mine)
+         return
+      end
    end
 end
 
