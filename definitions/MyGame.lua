@@ -9,8 +9,12 @@ prism.cells.OpaquePit = nil
 prism.cells.Pit = nil
 --- @module "modules.MyGame.cells.rock"
 prism.cells.Rock = nil
+--- @module "modules.MyGame.actions.mine"
+prism.actions.Mine = nil
 --- @module "modules.MyGame.actions.move"
 prism.actions.Move = nil
+--- @module "modules.MyGame.components.mineable"
+prism.components.Mineable = nil
 --- @module "modules.MyGame.components.mover"
 prism.components.Mover = nil
 --- @module "modules.MyGame.actors.player"
