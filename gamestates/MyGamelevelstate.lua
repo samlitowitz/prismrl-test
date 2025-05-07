@@ -3,7 +3,7 @@ local keybindings = require "keybindingschema"
 --- @class MyGameLevelState : LevelState
 --- @field path Path
 --- @field level Level
-local MyGameLevelState = spectrum.LevelState:extend "MyGameLevelState"
+local MyGameLevelState = spectrum.LevelState:extend("MyGameLevelState")
 
 function MyGameLevelState:__new(level, display, actionHandlers)
    spectrum.LevelState.__new(self, level, display, actionHandlers)
