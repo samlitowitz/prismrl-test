@@ -1,4 +1,5 @@
--- @class MineableComponent : MineableComponent
+--- @class MineableComponent : Component
+--- @field hits integer
 local Mineable = prism.Component:extend("MineableComponent")
 Mineable.name = "Mineable"
 
