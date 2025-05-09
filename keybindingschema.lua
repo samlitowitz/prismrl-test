@@ -8,4 +8,6 @@ return spectrum.Keybinding {
    { key = "z", action = "move down-left", description = "Moves the character diagonally down-left." },
    { key = "c", action = "move down-right", description = "Moves the character diagonally down-right." },
    { key = "x", action = "wait", description = "Character waits and does nothing." },
+   { key = "p", action = "pickup", description="" },
+   { key = "i", action = "inventory", description= "" },
 }

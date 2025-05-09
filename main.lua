@@ -19,12 +19,12 @@ prism.loadModule("modules/Sight")
 prism.loadModule("modules/MyGame")
 
 -- build a basic test map
-local mapbuilder = prism.MapBuilder(prism.cells.OpaquePit())
+local mapbuilder = prism.MapBuilder(prism.cells.OpaquePit)
 
-mapbuilder:drawRectangle(0, 0, 16, 16, prism.cells.OpaquePit())
-mapbuilder:drawRectangle(1, 1, 15, 15, prism.cells.Floor())
-mapbuilder:drawRectangle(2, 2, 5, 5, prism.cells.Rock())
-mapbuilder:drawRectangle(12, 2, 15, 5, prism.cells.Gold())
+mapbuilder:drawRectangle(0, 0, 16, 16, prism.cells.OpaquePit)
+mapbuilder:drawRectangle(1, 1, 15, 15, prism.cells.Floor)
+mapbuilder:drawRectangle(2, 2, 5, 5, prism.cells.Rock)
+mapbuilder:drawRectangle(12, 2, 15, 5, prism.cells.Gold)
 
 -- create and add the player
 mapbuilder:addActor(prism.actors.Player(), 6, 6)
